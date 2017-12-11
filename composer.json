@@ -1,0 +1,26 @@
+{
+    "name": "miaoyongqiang123/mphp",
+    "description": "c89kuangjia",
+    "type": "project",
+    "authors": [
+        {
+            "name": "miao",
+            "email": "1143490760@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "filp/whoops": "^2.0@dev"
+    },
+    "autoload":{
+        "files":[
+           "system/helper.php"
+        ],
+        "psr-4":{
+                "houdunwang\\":"houdunwang\\",
+                "app\\":"app\\",
+                 "system\\":"system\\"
+        }
+
+    }
+}
